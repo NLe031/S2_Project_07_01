@@ -22,6 +22,7 @@
 @import url("gp_designs.css");
 
 /* Flex Layout Styles */
+/* Sections off each item and element */
 body {
     display: -webkit-flex;
     display: flex;
@@ -43,6 +44,7 @@ article {
 	Mobile Devices: 0 - 480 pixels
    ============================================
 */
+/* Adds order to the page elements and keeps the img width 100% */
 @media only screen and (max-width: 480px) {
     img.panel {
         width: 100%;
@@ -63,6 +65,7 @@ article {
 	Tablet and Desktop Devices: Greater than 480 pixels
    ===================================================
 */
+/* Media query for tablet and desktop which rearranges the imgs with the correct widths to look like a comic */
 @media only screen and (min-width: 481px) {
     nav.horizontal ul {
         display: -webkit-flex;

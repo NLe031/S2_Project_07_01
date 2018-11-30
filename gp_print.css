@@ -17,6 +17,7 @@
 
 
 /* Hidden Objects */
+/* Hides these elements because they are not needed for prints */
 nav,
 footer,
 article {
@@ -29,6 +30,7 @@ article {
 
 
 /* Comic Book Sheet Styles */
+/* Allows the imgs to be in comic book form when printed */
 section#sheet {
     width: 6in;
     margin: 0in auto 0in auto;
